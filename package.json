@@ -1,5 +1,5 @@
 {
-  "name": "dapa5",
+  "name": "dapara-shopping",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,15 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^4.27.2",
+    "@reduxjs/toolkit": "^1.9.7",
+    "@smastrom/react-rating": "^1.3.2",
+    "bootstrap": "^5.3.2",
+    "js-cookie": "^3.0.5",
+    "next": "13.5.4",
+    "next-auth": "^4.24.5",
     "react": "^18",
+    "react-bootstrap": "^2.9.1",
     "react-dom": "^18",
-    "next": "14.0.3"
+    "react-hook-form": "^7.48.2",
+    "react-redux": "^8.1.3",
+    "react-router-dom": "^6.20.0",
+    "react-scroll": "^1.9.0"
   },
   "devDependencies": {
-    "autoprefixer": "^10.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10",
     "eslint": "^8",
-    "eslint-config-next": "14.0.3"
+    "eslint-config-next": "13.5.4",
+    "postcss": "^8",
+    "tailwindcss": "^3"
   }
 }
