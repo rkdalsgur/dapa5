@@ -55,10 +55,10 @@ export default function AddToCart({
       <div>
         {product.countInStock > 0 ? (
           <button className="primary-button w-full" onClick={addToCartHandler}>
-            Add to cart
+            장바구니에 담기
           </button>
         ) : (
-          <button disabled>Out of stock</button>
+          <button disabled>품절</button>
         )}
       </div>
     </>

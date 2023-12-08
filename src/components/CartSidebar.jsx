@@ -31,19 +31,19 @@ export default function CartSidebar() {
       }
     >
       {loading ? (
-        <div className="py-5 px-2">Loading...</div>
+        <div className="py-5 px-2">로딩중</div>
       ) : cartItems.length === 0 ? (
-        <div className="py-5 px-2">Cart is empty</div>
+        <div className="py-5 px-2">카트가 비어있습니다</div>
       ) : (
         <>
           <div className="p-2 flex flex-col items-center border-b border-b-gray-600">
-            <div>Subtotal</div>
+            <div>담은 상품</div>
             <div className="font-bold text-orange-700">${itemsPrice}</div>
             <Link
               href="/cart"
               className="w-full text-center p-1 rounded-2xl border-2 border-gray-600"
             >
-              Go to cart
+              장바구니로 이동하기
             </Link>
           </div>
           {cartItems.map((item) => (
@@ -75,7 +75,7 @@ export default function CartSidebar() {
                 className="default-button mt-2"
                 onClick={() => removeFromCartHandler(item.id)}
               >
-                Delete
+                삭제
               </button>
             </div>
           ))}

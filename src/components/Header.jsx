@@ -40,13 +40,13 @@ function ColorSchemesExample() {
               href="/sign-in"
               className="text-yellow-300 hover:text-white mr-4"
             >
-              Sign In
+              로그인
             </a>
             <a
               href="/sign-up"
               className="text-yellow-300 hover:text-white mr-4"
             >
-              Sign UP
+              회원가입
             </a>
           </div>
         </>
